@@ -10,13 +10,13 @@ const SearchInput = ({ title, value, handleChangeText, otherStyles, keyboardType
       <TextInput
         value={value}
         className="text-base mt-0.5 text-white flex-1 font-pregular"
-        placeholder={placeholder}
+        placeholder="Search for a video topic"
         placeholderTextColor="#7b7b8b"
         onChangeText={handleChangeText}
         secureTextEntry={title === 'Password' && !showPassword}
       />
       <TouchableOpacity>
-        <Image 
+        <Image
           source={icons.search}
           className="w-5 h-5"
           resizeMode="contain"
