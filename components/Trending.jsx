@@ -1,4 +1,13 @@
 import { View, Text, FlatList } from 'react-native'
+import * as Animatable from 'react-native-animatable'
+
+const TrendingItem = () => {
+  return (
+    <Animatable.View>
+      
+    </Animatable.View>
+  )
+}
 
 const Trending = ({ posts }) => {
   return (
